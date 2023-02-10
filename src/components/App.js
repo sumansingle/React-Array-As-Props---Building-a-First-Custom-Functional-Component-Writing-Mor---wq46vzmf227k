@@ -7,7 +7,7 @@ const arr = JSON.parse(
 const Join = (props) => {
   return (
     <div id="join">
-      {props.words.join(", ")}
+      {props.words.join(",")}
       {/* Access prop 'words' and print it using .join like words.join(',')*/}
     </div>
   );
